@@ -4,14 +4,14 @@ const Tabs = () => {
   return (
     <>
       <div className="tabs">
-        <button id="Home-Tab" className="tab">Home</button>
-        <button id="About-Tab" className="tab">About</button>
-        <button id="Features-Tab" className="tab">Features</button>
-      </div>
+  <div id="Home-Tab" className="tab">Home</div>
+  <div id="About-Tab" className="tab">About</div>
+  <div id="Features-Tab" className="tab">Features</div>
+</div>
 
-      <div className="viewport">
-        <h1>Pages Go Here</h1>
-      </div>
+<div className="viewport">
+  Pages Go Here
+</div>
     </>
   );
 };
