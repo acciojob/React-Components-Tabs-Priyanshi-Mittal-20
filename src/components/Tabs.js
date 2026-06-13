@@ -1,14 +1,19 @@
-import React from 'react'
+import React from 'react';
 
 const Tabs = () => {
   return (
-    <div className="tabs">
-      <button className="tab" id="Home-Tab">Home</button>
-      <button className="tab" id="About-Tab">About</button>
-      <button className="tab" id="Features-Tab">Features</button>
-      <h1 className="viewport">Pages Go Here</h1>
-    </div>
-  )
-}
+    <>
+      <div className="tabs">
+        <button id="Home-Tab" className="tab">Home</button>
+        <button id="About-Tab" className="tab">About</button>
+        <button id="Features-Tab" className="tab">Features</button>
+      </div>
 
-export default Tabs
+      <div className="viewport">
+        <h1>Pages Go Here</h1>
+      </div>
+    </>
+  );
+};
+
+export default Tabs;
